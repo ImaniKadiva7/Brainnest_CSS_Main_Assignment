@@ -18,9 +18,15 @@ header, footer
 {
     background: #1F2937;
 }
-.first-section, header
+header
 {
     padding: 1% 20%;
+}
+
+.first-section
+{
+    padding: 1% 20%;
+    margin: 0;
 }
 
 .main-section1
@@ -57,11 +63,6 @@ header, footer
 {
     color: #E5E7EB;
     font-size: 18px;
-}
-.main-section2 caption
-{
-    width: 90px;
-    height: 90px;
 }
 .second-section
 {
@@ -155,9 +156,15 @@ header, footer
 
 figure.fig-section2
 {
-    width: 90px;
-    height: 90px;
-    border: 2px solid #3882F6;
+    width: 70%;
+    height: auto;
+}
+figure.fig-section2 img
+{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar1
@@ -166,6 +173,12 @@ figure.fig-section2
     padding: 0;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+.navbar1 img
+{
+    width:20vb ;
+	border-radius: 113px 8px 91px 8px;
 }
 .navbar1 h1
 {
@@ -176,6 +189,7 @@ figure.fig-section2
 {
     display: flex;
     list-style: none;
+    margin: 0;
 }
 
 .navbar1 ul li a
@@ -217,9 +231,10 @@ a.home-class, a.about-class
     margin: 0;
 }
 
-.navbar2 figure
+.navbar2 figure img
 {
-    background: gold;
+    width: 100%;
+    height: auto;    
 }
 
 .navbar2 article h1
@@ -260,4 +275,80 @@ footer p
 {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+/* About page styles */
+
+.about-navbar article
+{
+    padding: 0;
+}
+
+.about-navbar article h1
+{
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.about-navbar article p
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.about-main-section
+{
+    padding: 3% 20%;
+}
+.about-main-section1
+{
+    padding: 0;
+    margin-bottom: 20px;
+}
+.about-main-section1 h1, .about-main-section1 article 
+{
+    margin: 0;
+}
+.about-main-section1 h1
+{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.about-main-section2
+{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.about-main-section2 article
+{
+    margin: 0;
+}
+
+.about-main-section2 h1
+{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-main-section2 article p, .about-main-section1 article p
+{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.about-main-section3
+{
+    padding: 0;
+    text-align: center;
+}
+
+.about-main-section3 a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #8c3838;
 }
